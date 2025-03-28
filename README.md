@@ -71,6 +71,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 10. after commit and push all 
 11. Deploy it to Netlify
 
+link : https://rainbow-horse-487603.netlify.app/ 
+
 
 ![alt text](src/assets/images/image.png)
 
