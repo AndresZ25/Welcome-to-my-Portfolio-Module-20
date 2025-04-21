@@ -1,17 +1,30 @@
+import resumePDF from '../assets/Resume.pdf'; 
+
 export default function Resume() {
   return (
     <div className="container my-5">
-      
+
       <div className="text-center mb-5">
         <h2>
-          <a href="/" className="text-decoration-none text-white ">My Resume</a>
+          <a href="/" className="text-decoration-none text-white">My Resume</a>
         </h2>
-        <p><small className="text-white ">Currently in progress — more to come!</small></p>
+        <p><small className="text-white"></small></p>
       </div>
 
      
+      <div className="mb-5 text-center">
+        <iframe
+          src={resumePDF}
+          width="100%"
+          height="800"
+          title="Resume PDF"
+          style={{ border: "1px solid #ccc", borderRadius: "8px" }}
+        ></iframe>
+      </div>
+
+      
       <div className="row">
-       
+
         <div className="col-md-6 mb-4">
           <div className="card h-100 shadow-sm">
             <div className="card-body">
@@ -44,6 +57,7 @@ export default function Resume() {
             </div>
           </div>
         </div>
+
       </div>
     </div>
   );
