@@ -7,7 +7,7 @@ export default function Header() {
       style={{ backgroundColor: 'lightblue' }}
     >
       <h1 className="text-center w-100 m-5">
-        Welcome to my portfolio!!
+        Welcome to the Portfolio!!
       </h1>
       <Nav />
     </div>

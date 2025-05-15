@@ -14,7 +14,7 @@ export default function Contact() {
       return;
     }
 
-    // Clear form
+  
     setNameInput('');
     setEmailInput('');
     setMessageInput('');
